@@ -122,6 +122,8 @@ for(int i=0; i<4; i++){
 
 ClusWiSARD with bleaching by default:
 ```python
+from wisardpkg import ClusWisard
+
 addressSize        = 3    # number of addressing bits in the ram.
 minScore           = 0.1  # min score of training process
 threshold          = 10   # limit of training cycles by discriminator
